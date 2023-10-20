@@ -46,9 +46,9 @@
 /* Begin PBXFileReference section */
 		4E314D282AB31F1B0072FE7B /* ArticleViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewComponent.swift; sourceTree = "<group>"; };
 		4E314D2A2AB33CE10072FE7B /* DetailArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailArticleView.swift; sourceTree = "<group>"; };
-		4EBBCC6A2ADFEA5900D0D0F6 /* BMICalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMICalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EBBCC6A2ADFEA5900D0D0F6 /* BMICalculatorYugaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMICalculatorYugaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBBCC6C2ADFEA5900D0D0F6 /* BMICalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorTests.swift; sourceTree = "<group>"; };
-		55E2DEE529EBB736003CEDEF /* BMICalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMICalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E2DEE529EBB736003CEDEF /* BMICalculatorYuga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMICalculatorYuga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E2DEE829EBB736003CEDEF /* BMICalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorApp.swift; sourceTree = "<group>"; };
 		55E2DEEA29EBB736003CEDEF /* BodyMassIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMassIndexView.swift; sourceTree = "<group>"; };
 		55E2DEEC29EBB737003CEDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,8 +110,8 @@
 		55E2DEE629EBB736003CEDEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55E2DEE529EBB736003CEDEF /* BMICalculator.app */,
-				4EBBCC6A2ADFEA5900D0D0F6 /* BMICalculatorTests.xctest */,
+				55E2DEE529EBB736003CEDEF /* BMICalculatorYuga.app */,
+				4EBBCC6A2ADFEA5900D0D0F6 /* BMICalculatorYugaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -333,9 +333,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EBBCC692ADFEA5900D0D0F6 /* BMICalculatorTests */ = {
+		4EBBCC692ADFEA5900D0D0F6 /* BMICalculatorYugaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EBBCC722ADFEA5900D0D0F6 /* Build configuration list for PBXNativeTarget "BMICalculatorTests" */;
+			buildConfigurationList = 4EBBCC722ADFEA5900D0D0F6 /* Build configuration list for PBXNativeTarget "BMICalculatorYugaTests" */;
 			buildPhases = (
 				4EBBCC662ADFEA5900D0D0F6 /* Sources */,
 				4EBBCC672ADFEA5900D0D0F6 /* Frameworks */,
@@ -346,14 +346,14 @@
 			dependencies = (
 				4EBBCC6F2ADFEA5900D0D0F6 /* PBXTargetDependency */,
 			);
-			name = BMICalculatorTests;
+			name = BMICalculatorYugaTests;
 			productName = BMICalculatorTests;
-			productReference = 4EBBCC6A2ADFEA5900D0D0F6 /* BMICalculatorTests.xctest */;
+			productReference = 4EBBCC6A2ADFEA5900D0D0F6 /* BMICalculatorYugaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		55E2DEE429EBB736003CEDEF /* BMICalculator */ = {
+		55E2DEE429EBB736003CEDEF /* BMICalculatorYuga */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55E2DEF329EBB737003CEDEF /* Build configuration list for PBXNativeTarget "BMICalculator" */;
+			buildConfigurationList = 55E2DEF329EBB737003CEDEF /* Build configuration list for PBXNativeTarget "BMICalculatorYuga" */;
 			buildPhases = (
 				55E2DEE129EBB736003CEDEF /* Sources */,
 				55E2DEE229EBB736003CEDEF /* Frameworks */,
@@ -363,9 +363,9 @@
 			);
 			dependencies = (
 			);
-			name = BMICalculator;
+			name = BMICalculatorYuga;
 			productName = BMICalculator;
-			productReference = 55E2DEE529EBB736003CEDEF /* BMICalculator.app */;
+			productReference = 55E2DEE529EBB736003CEDEF /* BMICalculatorYuga.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -387,7 +387,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 55E2DEE029EBB736003CEDEF /* Build configuration list for PBXProject "BMICalculator" */;
+			buildConfigurationList = 55E2DEE029EBB736003CEDEF /* Build configuration list for PBXProject "BMICalculatorYuga" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -400,8 +400,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55E2DEE429EBB736003CEDEF /* BMICalculator */,
-				4EBBCC692ADFEA5900D0D0F6 /* BMICalculatorTests */,
+				55E2DEE429EBB736003CEDEF /* BMICalculatorYuga */,
+				4EBBCC692ADFEA5900D0D0F6 /* BMICalculatorYugaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -467,7 +467,7 @@
 /* Begin PBXTargetDependency section */
 		4EBBCC6F2ADFEA5900D0D0F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55E2DEE429EBB736003CEDEF /* BMICalculator */;
+			target = 55E2DEE429EBB736003CEDEF /* BMICalculatorYuga */;
 			targetProxy = 4EBBCC6E2ADFEA5900D0D0F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -493,7 +493,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMICalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BMICalculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMICalculatorYuga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BMICalculatorYuga";
 			};
 			name = Debug;
 		};
@@ -516,7 +516,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMICalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BMICalculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMICalculatorYuga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BMICalculatorYuga";
 			};
 			name = Release;
 		};
@@ -697,7 +697,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EBBCC722ADFEA5900D0D0F6 /* Build configuration list for PBXNativeTarget "BMICalculatorTests" */ = {
+		4EBBCC722ADFEA5900D0D0F6 /* Build configuration list for PBXNativeTarget "BMICalculatorYugaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EBBCC702ADFEA5900D0D0F6 /* Debug */,
@@ -706,7 +706,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E2DEE029EBB736003CEDEF /* Build configuration list for PBXProject "BMICalculator" */ = {
+		55E2DEE029EBB736003CEDEF /* Build configuration list for PBXProject "BMICalculatorYuga" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55E2DEF129EBB737003CEDEF /* Debug */,
@@ -715,7 +715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E2DEF329EBB737003CEDEF /* Build configuration list for PBXNativeTarget "BMICalculator" */ = {
+		55E2DEF329EBB737003CEDEF /* Build configuration list for PBXNativeTarget "BMICalculatorYuga" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55E2DEF429EBB737003CEDEF /* Debug */,
