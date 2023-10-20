@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import BMICalculator
+@testable import BMICalculatorYuga
 
 final class BMICalculatorTests: XCTestCase {
     var bmiViewModel: BodyMassIndexViewModel?
