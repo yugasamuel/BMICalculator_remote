@@ -50,7 +50,7 @@ final class BMICalculatorTests: XCTestCase {
         
         assert(scale1! == .normal, "Test 1 is failed")
         assert(scale2! == .overweight, "Test 2 is failed")
-        assert(scale3! != .obese, "Test 3 is failed")
+        assert(scale3! == .obese, "Test 3 is failed")
         
     }
 }
